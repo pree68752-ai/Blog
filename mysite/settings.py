@@ -28,7 +28,7 @@ SECRET_KEY = SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS','').split(',')
+ALLOWED_HOSTS =["blog-1-038e.onrender.com"]
 
 
 # Application definition
